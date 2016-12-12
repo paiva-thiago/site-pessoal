@@ -1,0 +1,61 @@
+@import url(http://weloveiconfonts.com/api/?family=zocial|maki);
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900');
+/* brandico */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
+/* fontawesome */
+[class*="maki-"]:before {
+  font-family: 'Maki', sans-serif;
+}
+
+body{
+    background-color: #efede1;
+    padding-bottom:10%;
+}
+.cntr {
+	 margin-top: 20%;
+     text-align: center;
+}
+.cntr h4{
+    border: 5px solid #888888;
+    padding: 1%;
+    width: auto;
+    display: inline;
+    font-weight: 900;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 3pc;
+}
+.cntr p{
+    margin-top: 2%;
+}
+.ico{
+    font-size: 2em;
+    text-align: center;
+}
+.ico label{
+    display: none;
+}
+a, a:visited{
+    text-decoration:none;
+    color:#000;
+}
+a:hover{
+    color:#555;
+}
+ul{list-style: none;}
+@media(max-width:640px){
+    .ico {
+        font-size:5em;
+    }
+    .ico label{
+        display: block;
+        font-size: 1pc;
+    }
+}
+@media(max-width:400px){
+    .cntr h4{
+        font-size: 2pc;
+    }
+}
